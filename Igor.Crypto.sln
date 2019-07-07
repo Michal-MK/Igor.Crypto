@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igor.Crypto", "Igor.Crypto\Igor.Crypto.csproj", "{CAB62242-7F48-4033-A504-4B3742CD5037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igor.Crypto.Test", "Igor.Crypto.Test\Igor.Crypto.Test.csproj", "{84F04F94-E16F-4931-8993-CB0146C7B171}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CAB62242-7F48-4033-A504-4B3742CD5037} = {CAB62242-7F48-4033-A504-4B3742CD5037}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCrypt", "QuickCrypt\QuickCrypt.csproj", "{352FE8F3-05F0-426C-9D73-1CE79CD30171}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAB62242-7F48-4033-A504-4B3742CD5037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB62242-7F48-4033-A504-4B3742CD5037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB62242-7F48-4033-A504-4B3742CD5037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB62242-7F48-4033-A504-4B3742CD5037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F04F94-E16F-4931-8993-CB0146C7B171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F04F94-E16F-4931-8993-CB0146C7B171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F04F94-E16F-4931-8993-CB0146C7B171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F04F94-E16F-4931-8993-CB0146C7B171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352FE8F3-05F0-426C-9D73-1CE79CD30171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352FE8F3-05F0-426C-9D73-1CE79CD30171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352FE8F3-05F0-426C-9D73-1CE79CD30171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352FE8F3-05F0-426C-9D73-1CE79CD30171}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2656B7DD-3FCA-4182-ABAB-6FA3145F5028}
+	EndGlobalSection
+EndGlobal
